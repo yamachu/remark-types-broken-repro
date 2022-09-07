@@ -1,0 +1,17 @@
+{
+  "name": "remark-types-broken-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "4.8.2"
+  },
+  "dependencies": {
+    "remark-parse": "10.0.1",
+    "unified": "10.1.2"
+  }
+}
